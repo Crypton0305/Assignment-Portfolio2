@@ -1,0 +1,385 @@
+.body{
+    margin:0;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 48px;
+  }
+  
+  .white{
+    color: rgb(245, 245, 247)
+  }
+  .underline{
+    text-decoration:underline;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .super{
+    font-size: 70%;
+  }
+  
+  .svg{
+    width: 18px;
+    position:relative;
+    bottom:-3.8px;
+  }
+  
+  .svg-collection{
+    width: 14px;
+    position:relative;
+    bottom:-2.6px;
+    margin-right: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .row{
+    display:flex;
+    flex-direction: row;
+  /*   padding: 8px; */
+  }
+  
+  .row-collection{
+    display:flex;
+    flex-direction: row;
+  /*   padding: 10px; */
+  }
+  
+  .row-footer{
+    display:flex;
+    flex-direction: row;
+    color: #424245
+  }
+  
+  .row-footer h3{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  .row-footer a{
+    color: #424245;
+  }
+  
+  .row-footer ul{
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .row-basement{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  .row-basement a{
+    color: #424245;
+  }
+  
+  .margin-right-column{
+    margin-top: 12px;
+    margin-left: 6px;
+    margin-right: 12px; 
+  }
+  
+  .margin-left-column{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 6px
+  }
+  
+  .headline{
+    font-size: 56px;
+    line-height: 50px;
+    font-weight: 600px;
+    letter-spacing: -0.9px;
+    margin-bottom: 0px;
+  }
+  
+  .subhead{
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing .002px;
+    margin-top: 14px;
+    margin-bottom: 0px;  
+  }
+  
+  .callout{
+    color: rgb(134, 134, 139);
+    font-size: 19px;
+    line-height: 21px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+  }
+  .cta-links{
+    color: #2997ff;
+    width: 250px;
+    font-size: 21px;
+    margin-top: 14px;
+    font-weight: 400;
+    letter-spacing: .231px; 
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .cta-links-collection{
+    font-size: 17px;
+    color: #2997ff;
+    wdith: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-wrapper{
+    background-color: rgba(251, 251, 253, 0.80);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100vw;
+    position: 0;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .menu-list-container{
+    padding: 0 22px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .menu-list{
+    font-size: 12px;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #6e6e73;
+    margin: 0;
+  }
+  
+  .current-ad{
+    width: auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #6e6e73;
+  }
+  
+  .iphone-15-pro{
+    background: url(./images/15\ pro.jpg) center center;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; 
+  }
+  
+  .iphone-15{
+    background: url(./images/15.jpg) center center;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin-top: 12px;
+  }
+  
+  .watch{
+    background: url(./images/series\ 9.jpg) center center;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding-top: 50px;
+    margin-top: 12px;
+  }
+    
+  .watch-logo-image{
+    background: url(./images/ser\ 9\ logo.png) center center;
+    background-repeat: no-repeat;
+    height: 72px;
+    width: 190px;
+    margin: 0;
+  }
+  
+  .collection{
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
+  
+  .collection h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .collection h5{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .collection-column{
+    background-size: cover;
+    display:flex;
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+  }
+  
+  .collection-column-ctabox{
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .ultra-2-logo{
+    background: url(./images/ultra\ logo.png) center center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  }
+  
+  .ultra-2-logo{
+    background: url(./images/ultra\ logo.png) center center;
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 137px;
+    margin-top: 30px;
+  }
+  
+  .carbon-neutral-logo{
+    background: url(./images/carbo.png) center center;
+    background-repeat: no-repeat;
+    height: 61px;
+    width: 315px;
+    margin-top: 30px; 
+  }
+  
+  .trade-in-logo{
+    background: url(./images/trade.png) center center;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 155px;
+    margin-top: 30px;
+    margin-bottom: 10px; 
+  }
+  
+  .card-logo{
+    background: url(./images/card\ logo.png) center;
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 108px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .fine-print{
+    border-bottom: solid 1px;
+    border-color: #d2d2d7;
+    padding-top: 10px;  
+  }
+  
+  .fine-print a{
+    color: #424245;
+    text-decoration: underline;
+  }
+  
+  .directory-column{
+    width: 20%;
+    height: 450px;
+    line-height: 2;
+  }
+  .contact-info{
+    border-bottom: solid 1px;
+    border-bottom-color: #d2d2d7;
+    padding-bottom: 10px;
+  }
+  
+  .footer{
+     background-color: #f5f5f7;
+  }
+  
+  .footer-container{
+    max-width: 1024px;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #6e6e73; 
+  }
+  
+  .basement-width{
+    width: 25%;
+  }
+  
+  .basement-width:last-child{
+    display:flex;
+    justify-content: flex-end;  
+  }
+  
+  .basement-links{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-list{
+    display: flex;
+    width: auto;
+    font-size: 12px;
+  }
+  
+  .basement-links ul {
+    margin-top: 0px;
+  }
+  
+  .basement-links li{
+    border-right: solid 1px;
+    padding-right: 12px;
+    padding-left: 12px;
+    }
+  
+  .basement-links li:last-child{
+    border: none;
+  }
+  
+  .ultra-two{
+    background: url(./images/ultra\ 2.jpg) center center; 
+  }
+  
+  .carbon-neutral{
+    background: url(./images/carbon\ watch.jpg) center center;
+  }
+  
+  .shop-iphone{
+    background: url(./images/promo\ shop.jpg) center center;
+    background-repeat: no-repeat;
+  }
+  
+  .trade-in{
+    background: url(./images/iphone\ trade.jpg) center center;
+    background-repeat: no-repeat;
+  }
+  
+  .airpods{
+    background: url(./images/airpods.jpg) center center;
+    background-repeat: no-repeat;
+  }
+  
+  .apple-card{
+    background: url() center center;
+    background-repeat: no-repeat;
+  }
